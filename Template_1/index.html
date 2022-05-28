@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template_1</title>
+    <link rel="stylesheet" href="./plugin/normalize8.0.1.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./plugin/jquery-3.6.0.js"></script>
+    <script src="./js/getdata.js"></script>
+    <script src="./js/Jstyle.js"></script>
+</head>
+<body>
+    <section id="ClassSchedule">
+        <div class="schedule-style column_container">
+            <table class="datatable" width="100%" role="grid">
+                <thead>
+                    <tr role="row">
+                        <th class="black row_container text_center w5 " >節次</th>
+                        <th class="black row_container text_center w5 " >時間</th>
+                        <th class="black row_container text_center " >一</th>
+                        <th class="black row_container text_center " >二</th>
+                        <th class="black row_container text_center " >三</th>
+                        <th class="black row_container text_center " >四</th>
+                        <th class="black row_container text_center " >五</th>
+                        <th class="black row_container text_center " >六</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">1</td>
+                        <td class="black row_container text_center w5 ">08:10~<br>09:00&nbsp;&nbsp; </td>
+                        <td id="s1" class=" black row_container text_center"></td>
+                        <td id="s2" class=" black row_container text_center"></td>
+                        <td id="s3" class=" black row_container text_center"></td>
+                        <td id="s4" class=" black row_container text_center"></td>
+                        <td id="s5" class=" black row_container text_center"></td>
+                        <td id="s6" class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">2</td>
+                        <td class="black row_container text_center w5 ">09:05~<br>09:55&nbsp;&nbsp; </td>
+                        <td id="s7" class=" black row_container text_center"></td>
+                        <td id="s8" class=" black row_container text_center"></td>
+                        <td id="s9" class=" black row_container text_center"></td>
+                        <td id="s10" class=" black row_container text_center"></td>
+                        <td id="s11"class=" black row_container text_center"></td>
+                        <td id="s12" class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">3</td>
+                        <td class="black row_container text_center w5 ">10:15~<br>11:05&nbsp;&nbsp; </td>
+                        <td id="s13" class=" black row_container text_center"></td>
+                        <td id="s14" class=" black row_container text_center"></td>
+                        <td id="s15" class=" black row_container text_center"></td>
+                        <td id="s16" class=" black row_container text_center"></td>
+                        <td id="s17" class=" black row_container text_center"></td>
+                        <td id="s18" class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">4</td>
+                        <td class="black row_container text_center w5 ">11:10~<br>12:00&nbsp;&nbsp; </td>
+                        <td id="s19"class=" black row_container text_center"></td>
+                        <td id="s20"class=" black row_container text_center"></td>
+                        <td id="s21"class=" black row_container text_center"></td>
+                        <td id="s22"class=" black row_container text_center"></td>
+                        <td id="s23"class=" black row_container text_center"></td>
+                        <td id="s24"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">5</td>
+                        <td class="black row_container text_center w5 ">12:05~<br>12:55&nbsp;&nbsp; </td>
+                        <td id="s25"class=" black row_container text_center"></td>
+                        <td id="s26"class=" black row_container text_center"></td>
+                        <td id="s27"class=" black row_container text_center"></td>
+                        <td id="s28"class=" black row_container text_center"></td>
+                        <td id="s29"class=" black row_container text_center"></td>
+                        <td id="s30"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">6</td>
+                        <td class="black row_container text_center w5 ">13:10~<br>14:00&nbsp;&nbsp; </td>
+                        <td id="s31"class=" black row_container text_center"></td>
+                        <td id="s32"class=" black row_container text_center"></td>
+                        <td id="s33"class=" black row_container text_center"></td>
+                        <td id="s34"class=" black row_container text_center"></td>
+                        <td id="s35"class=" black row_container text_center"></td>
+                        <td id="s36"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">7</td>
+                        <td class="black row_container text_center w5 ">14:05~<br>14:55&nbsp;&nbsp; </td>
+                        <td id="s37"class=" black row_container text_center"></td>
+                        <td id="s38"class=" black row_container text_center"></td>
+                        <td id="s39"class=" black row_container text_center"></td>
+                        <td id="s40"class=" black row_container text_center"></td>
+                        <td id="s41"class=" black row_container text_center"></td>
+                        <td id="s42"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">8</td>
+                        <td class="black row_container text_center w5 ">15:15~<br>16:05&nbsp;&nbsp; </td>
+                        <td id="s43" class=" black row_container text_center"></td>
+                        <td id="s44"class=" black row_container text_center"></td>
+                        <td id="s45"class=" black row_container text_center"></td>
+                        <td id="s46"class=" black row_container text_center"></td>
+                        <td id="s47"class=" black row_container text_center"></td>
+                        <td id="s48"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">9</td>
+                        <td class="black row_container text_center w5 ">16:10~<br>17:00&nbsp;&nbsp; </td>
+                        <td id="s49"class=" black row_container text_center"></td>
+                        <td id="s50"class=" black row_container text_center"></td>
+                        <td id="s51"class=" black row_container text_center"></td>
+                        <td id="s52"class=" black row_container text_center"></td>
+                        <td id="s53"class=" black row_container text_center"></td>
+                        <td id="s54"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">10</td>
+                        <td class="black row_container text_center w5 ">17:10~<br>18:00&nbsp;&nbsp; </td>
+                        <td id="s55"class=" black row_container text_center"></td>
+                        <td id="s56"class=" black row_container text_center"></td>
+                        <td id="s57"class=" black row_container text_center"></td>
+                        <td id="s58"class=" black row_container text_center"></td>
+                        <td id="s59"class=" black row_container text_center"></td>
+                        <td id="s60"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">11</td>
+                        <td class="black row_container text_center w5 ">18:20~<br>19:10&nbsp;&nbsp; </td>
+                        <td id="s61"class=" black row_container text_center"></td>
+                        <td id="s62"class=" black row_container text_center"></td>
+                        <td id="s63"class=" black row_container text_center"></td>
+                        <td id="s64"class=" black row_container text_center"></td>
+                        <td id="s65"class=" black row_container text_center"></td>
+                        <td id="s66"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">12</td>
+                        <td class="black row_container text_center w5 ">19:15~<br>20:05&nbsp;&nbsp; </td>
+                        <td id="s67"class=" black row_container text_center"></td>
+                        <td id="s68"class=" black row_container text_center"></td>
+                        <td id="s69"class=" black row_container text_center"></td>
+                        <td id="s70"class=" black row_container text_center"></td>
+                        <td id="s71"class=" black row_container text_center"></td>
+                        <td id="s72"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">13</td>
+                        <td class="black row_container text_center w5 ">20:10~<br>21:00&nbsp;&nbsp; </td>
+                        <td id="s73"class=" black row_container text_center"></td>
+                        <td id="s74"class=" black row_container text_center"></td>
+                        <td id="s75"class=" black row_container text_center"></td>
+                        <td id="s76"class=" black row_container text_center"></td>
+                        <td id="s77"class=" black row_container text_center"></td>
+                        <td id="s78"class=" black row_container text_center"></td>
+                    </tr>
+                    <tr role="row" class="">
+                        <td class="black row_container text_center w5 ">14</td>
+                        <td class="black row_container text_center w5 ">22:10~<br>23:00&nbsp;&nbsp; </td>
+                        <td id="s79"class=" black row_container text_center"></td>
+                        <td id="s80"class=" black row_container text_center"></td>
+                        <td id="s81"class=" black row_container text_center"></td>
+                        <td id="s82"class=" black row_container text_center"></td>
+                        <td id="s83"class=" black row_container text_center"></td>
+                        <td id="s84"class=" black row_container text_center"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

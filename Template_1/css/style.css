@@ -1,0 +1,46 @@
+/* 這是專為課表範例訂製的CSS */
+/* 適用Templat#1 */
+
+
+
+.ds-block{
+    display: block;
+}
+.ds-inline{
+    display: inline;
+}
+.schedule-style{
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.datatable{
+    vertical-align: middle; 
+    font-size: 13px; 
+    margin: 0px; 
+    /* width: 548px */
+}
+.black{
+    color: black;
+}
+.row_container{
+    width: 10%;
+}
+.column_container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.text_center{
+    text-align: center;
+}
+th,tr{
+    border: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.w5{
+    width: 5%;
+}
